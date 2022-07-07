@@ -1,16 +1,16 @@
 # Music-Player
 Building a music player using JS, HTML, CSS
 Functions: 
-// Render song --> OK
-// Play / pause / next / prev --> Ok
-// song active --> OK
-// scroll to make the disc smaller --> OK
-// CD rotate --> OK
-// slide music -> OK
-// random without repeating old songs until finishing playlist even if users move forward or backward -> OK
-// repeat --> OK
-// scroll to active song --> OK
-// click to play song --> OK
-// save settings to local storage 
+1. Render song --> OK
+2. Play / pause / next / prev --> Ok
+3. song active --> OK
+4. scroll to make the disc smaller --> OK
+5. CD rotate --> OK
+6. slide progressing bar -> OK
+7. play random songs without repeating old ones until finishing playlist even if users move forward or backward -> OK
+8. repeat --> OK
+9. scroll to active song --> OK
+10. click to play song --> OK
+11. save settings to local storage 
 
-#Live Preview
+# Live Preview
