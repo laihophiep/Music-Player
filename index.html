@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h4>Song</h4>
+                <h2>We are the OGs</h2>
+            </header>
+
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')"></div>
+            </div>
+
+            <!-- Control -->
+            <div class="control">
+                <div class="btn repeat-btn ">
+                    <i class="fa-solid fa-repeat repeat-icon"></i>
+                </div>
+                <div class="btn prev-btn">
+                    <i class="fa-solid fa-backward-step prev-icon"></i>
+                </div>
+                <div class="btn toggle-btn">
+                    <i class="fa-solid fa-play play-icon"></i>
+                    <i class="fa-solid fa-pause pause-icon"></i>
+                </div>
+                <div class="btn forward-btn">
+                    <i class="fa-solid fa-forward-step forward-icon"></i>
+                </div>
+                <div class="btn shuffle-btn">
+                    <i class="fa-solid fa-shuffle shuffle-icon"></i>
+                </div>
+            </div>
+            
+            <input type="range" id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist">
+            <div class="song active">
+                <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')"></div>
+                
+                <div class="body">
+                    <div class="title">Song name</div>
+                    <div class="singer">Singer</div>
+                </div>
+                <div class="option">
+                    <i class="fa-solid fa-ellipsis option-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
