@@ -11,6 +11,7 @@ Functions:
 8. repeat --> OK
 9. scroll to active song --> OK
 10. click to play song --> OK
-11. save settings to local storage 
+11. save settings to local storage --> OK
 
 # Live Preview
+https://phungo-hub.github.io/Music-Player/
